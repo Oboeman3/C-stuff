@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FuelApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Car> CarCollection = ProcessFuelFile("FuelEfficiency.csv");
+
+            List<Car> query1 = CarCollection.OrderByDescending(c => c.Combined)
+                .ThenBy(c => c.Manufacturer)
+                .ToList();
+
+            List<Car> query2 = CarCollection.Where(c => c.Manufacturer == "Ford")
+                .OrderByDescending(c=> c.Combined)
+                .ToList();
+
+            List<Car> query3 = CarCollection.Where(c => c.Combined < 20)
+                .OrderBy(c=>c.Combined)
+                .ToList();
+
+            foreach(Car car in query3.Take(100))
+            {
+                Console.WriteLine($"{car.Year},{car.Name},{car.Manufacturer},{car.Combined}");
+            }
+
+            Console.ReadLine();
+        }
+
+        private static List<Car> ProcessFuelFile(string path)
+        {
+            return
+            File.ReadAllLines(path)
+                .Skip(1)
+                .Where(line => line.Length > 1)
+                .Select(Car.ParseFromFile).ToList();
+        }
+    }
+    
+}
