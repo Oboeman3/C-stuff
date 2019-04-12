@@ -1,0 +1,30 @@
+Year ,Make,Model,Price,Transmission,Engine,MilesPerGal,Type,BodyType,DriveTain,DealerShip
+2018,Cheverolet,Impala,27895,Automatic,V4,22,Gasoline,Sedan,RWD,Jim Browne
+2018,Cheverolet,Volt,33220,Automatic,Electric,1000,Electric,Sedan,RWD,Jim Browne
+2018,Cheverolet,Corvette ZR1,133895,Manual ,V8,15,Gasoline,Coupe,RWD,Gordan
+2018,Cheverolet,Tahoe,47900,Automatic,V8,18,Gasoline,SUV,4X4,Jim Browne
+2018,Cheverolet,Silverado 1500,28300,Automatic,V8,20,Diesel,Truck,4X4,Gordan
+2018,Dodge,Charger,34590,Manual,V6,24,Gasoline,Sedan,RWD,Ferman
+2018,Dodge,Challenger,32835,Manual,V6,24,Gasoline,Coupe,RWD,Ferman
+2018,Dodge,Cherokee,26350,Automatic,V6,24,Gasoline,SUV,FWD,Jim Browne
+2018,Dodge,Ram 2500,45910,Automatic,V8,14,Diesel,Truck,4X4,Jim Browne
+2018,Dodge,Pacifica,38930,Automatic,V6,23,Gasoline,Van,FWD,Jim Browne
+2018,Ford,Edge,29995,Automatic,V6,25,Gasoline,SUV,4X4,Elder Ford
+2018,Ford,Fiesta,14260,Automatic,V4,32,Gasoline,Sedan,RWD,Elder Ford
+2018,Ford,Foucs,29120,Automatic,Electric,118,Electric,Sedan,RWD,Elder Ford
+2018,Ford,F-150,28155,Automatic,V6,23,Diesel,Truck,4X4,Bill Currie 
+2018,Ford,Mustang,26120,Manual,V8,24,Gasoline,Coupe,RWD,Bill Currie 
+2018,Honda,Civic,24100,Manual,V4,34,Gasoline,Coupe,RWD,Tampa Honda
+2018,Honda,Pilot,31450,Automatic,V6,23,Gasoline,SUV,4X4,Tampa Honda
+2018,Honda,Odyssey,30090,Automatic,V6,24,Gasoline,Van,FWD,Tampa Honda
+2018,Honda,Ridgeline,29990,Automatic,V6,22,Gasoline,Truck,4X4,Brandon Honda
+2018,Honda,Accord,23570,Automatic,V4,34,Gasoline,Sedan,FWD,Brandon Honda 
+2018,Tesla,Model S,77000,Automatic,Electric,335,Electric,Sedan,RWD,Tesla
+2018,Tesla,Model X,83000,Automatic,Electric,295,Electric,SUV,RWD,Tesla
+2018,Tesla,Model 3,45000,Automatic,Electric,260,Electric,Sedan,RWD,Tesla
+2018,Tesla,Roadster,250000,Manual,Electric,620,Electric,Coupe,RWD,Tesla
+2018,Toyota,4Runner,34810,Automatic,V6,18,Gasoline,SUV,4X4,Stadium Toyota
+2018,Toyota,Avalon,33500,Automatic,V6,24,Gasoline,Sedan,FWD,Stadium Toyota
+2018,Toyota,Camry,23645,Automatic,V4,34,Gasoline,Sedan,RWD,Stadium Toyota
+2018,Toyota,Corolla,21765,Manual,V4,30,Gasoline,Sedan,RWD,Courtesy Toyota
+2018,Toyota,Tundra,40585,Automatic,V8,15,Diesel,Truck,4X4,Courtesy Toyota
