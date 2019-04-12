@@ -1,0 +1,22 @@
+﻿<Window x:Class="CarSearch.ResultsWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarSearch"
+        mc:Ignorable="d"
+        Title="ResultsWin" Height="150" Width="250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Your Monthy Payment Is:" Grid.Row="0" FontWeight="Bold" FontSize="18"/>
+        <Label Content="{Binding Parent2.Payment}" Grid.Row="1" FontSize="18" FontWeight="Bold"/>
+        <Label Content="{Binding Parent.Payment}" Grid.Row="1" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Exit" Height="25" Width="35" Grid.Row="2" Click="Exit"/>
+
+    </Grid>
+</Window>
